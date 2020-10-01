@@ -111,6 +111,19 @@ const updateVisualState = (key, calculator) => {
   }
 }
 
+#Code for GCD
+def hcfnaive(a,b): 
+	if(b==0): 
+		return a 
+	else: 
+		return hcfnaive(b,a%b) 
+
+a = 60
+b= 48
+
+print ("The gcd of 60 and 48 is : ",end="") 
+print (hcfnaive(60,48)) 
+
 const calculator = document.querySelector('.calculator')
 const display = calculator.querySelector('.calculator__display')
 const keys = calculator.querySelector('.calculator__keys')
