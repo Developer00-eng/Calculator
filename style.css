@@ -1,7 +1,13 @@
 // Some personal resets
+
+*root{
+  --bg-color:white;
+}
+
 html {
   box-sizing: border-box;
 }
+
 
 *,
 *::before,
